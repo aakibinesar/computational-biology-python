@@ -437,6 +437,96 @@ This module moves from simple sequence manipulation to sequence-level statistics
 
 ## Module 05: Genetics and Probability
 
+### Teaching Purpose
+
+This module introduces probability, combinatorics, inheritance modelling, and population genetics through computational biology problems. It connects basic arithmetic, counting, and probability reasoning to Mendelian inheritance, allele frequencies, expected values, and genetic drift.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+
+### Problems Used
+
+- IPRB
+- IEV
+- LIA
+- AFRQ
+- MEND
+- SEXL
+- WFMD
+- FOUN
+- EBIN
+- INDC
+- ASPC
+- PPER
+- SSET
+- SETO
+- PERM
+- SIGN
+
+### Concepts
+
+- Mendelian inheritance
+- Dominant and recessive alleles
+- Expected value
+- Independent probability
+- Binomial probability
+- Allele frequency
+- Wright-Fisher model
+- Genetic drift
+- Combinatorics
+- Set operations
+- Permutations and signed permutations
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Basic arithmetic
+- Loops and conditionals
+- Combinatorial counting
+- Probability rules
+
+### Connected Bioinformatics Applications
+
+| Problem | Bioinformatics Connection |
+|---|---|
+| IPRB | Mendelian inheritance probability |
+| IEV | Expected number of dominant phenotype offspring |
+| LIA | Independent allele inheritance across generations |
+| AFRQ | Allele frequency estimation |
+| WFMD | Genetic drift using Wright-Fisher modelling |
+| FOUN | Founder effect and allele frequency change |
+| EBIN | Expected binomial outcomes |
+| PERM, SIGN | Permutation-based reasoning used in genome rearrangement and combinatorics |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| IPRB | Fully explained |
+| IEV | Fully explained |
+| LIA | Fully explained |
+| WFMD | Fully explained |
+| FOUN | Fully explained |
+| AFRQ | Worked example |
+| MEND | Worked example |
+| SEXL | Worked example |
+| EBIN | Worked example |
+| INDC | Worked example |
+| ASPC | Worked example |
+| PPER | Archive solution |
+| SSET | Archive solution |
+| SETO | Archive solution |
+| PERM | Worked example |
+| SIGN | Worked example |
+
+### Teaching Output
+
+- Genetics and probability notebook
+- Mendelian inheritance teaching note
+- Probability model exercise set
+- Short bridge note connecting classical probability to biological data modelling
+
 ## Module 06: Dynamic Programming and Sequence Alignment
 
 ## Module 07: String Matching and Genome Indexing

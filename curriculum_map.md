@@ -656,6 +656,113 @@ This module introduces dynamic programming as one of the central algorithmic tec
 
 ## Module 07: String Matching and Genome Indexing
 
+### Teaching Purpose
+
+This module connects basic motif search to efficient string-matching and indexing methods used in computational biology. It moves from direct substring search to prefix functions, tries, suffix-based structures, and Burrows-Wheeler-style indexing.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+- Related independent string-matching implementations
+
+### Problems Used
+
+- SUBS
+- KMP
+- TRIE
+- SUFF
+- LING
+- MREP
+- LREP
+- BA1A
+- BA1B
+- BA1D
+- BA1H
+- BA9A
+- BA9B
+- BA9C
+- BA9D
+- BA9E
+- BA9F
+- BA9G
+- BA9H
+- BA9I
+- BA9J
+- BA9K
+- BA9L
+- BA9M
+- BA9N
+- BA9O
+- BA9P
+- BA9Q
+- BA9R
+
+### Concepts
+
+- Exact pattern matching
+- Approximate pattern matching
+- Prefix functions
+- Failure arrays
+- Tries
+- Suffix trees
+- Suffix arrays
+- Repeated substrings
+- Genome indexing
+- Burrows-Wheeler Transform
+- Pattern matching at genome scale
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 01: Algorithmic Foundations — Arrays, Sorting, and Searching
+- Module 04: Sequence Statistics, Motifs, and k-mers
+- Python strings
+- Dictionaries
+- Sorting
+- Prefix/suffix reasoning
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| SUBS | Direct motif search in DNA sequences |
+| KMP | Efficient motif search using failure arrays |
+| TRIE | Prefix-tree representation of biological patterns |
+| SUFF | Suffix-based representation of whole sequences |
+| MREP, LREP | Repeated sequence discovery |
+| BA1A–BA1H | Frequent words, approximate matching, and pattern location |
+| BA9A–BA9R | Genome indexing, suffix arrays, and Burrows-Wheeler-based search |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| SUBS | Fully explained |
+| KMP | Fully explained |
+| TRIE | Fully explained |
+| BA1A | Fully explained |
+| BA1B | Fully explained |
+| BA9A | Fully explained |
+| BA9D | Fully explained |
+| BA9E | Fully explained |
+| SUFF | Worked example |
+| MREP | Worked example |
+| LING | Worked example |
+| LREP | Archive solution |
+| BA9I | Worked example |
+| BA9J | Worked example |
+| BA9M | Worked example |
+| BA9N | Worked example |
+| Remaining BA9 problems | Archive solution |
+
+### Teaching Output
+
+- String matching and genome indexing notebook
+- Prefix-function and trie lesson note
+- Suffix-array/suffix-tree overview
+- Exercise set on motif search and genome-scale pattern matching
+
 ## Module 08: Graphs and Genome Assembly
 
 ## Module 09: RNA Structure and Combinatorial Biology

@@ -529,6 +529,131 @@ This module introduces probability, combinatorics, inheritance modelling, and po
 
 ## Module 06: Dynamic Programming and Sequence Alignment
 
+### Teaching Purpose
+
+This module introduces dynamic programming as one of the central algorithmic techniques in computational biology. It connects recurrence relations and sequence comparison problems to longest common subsequences, edit distance, shortest common supersequences, global alignment, local alignment, affine gap penalties, and alignment graph formulations.
+
+### Rosalind Track Connection
+
+- Algorithmic Heights
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+
+### Problems Used
+
+- FIBO
+- FIB
+- FIBD
+- LCSQ
+- EDIT
+- EDTA
+- SCSP
+- CTEA
+- GLOB
+- GCON
+- LOCA
+- GAFF
+- LAFF
+- OAP
+- SIMS
+- SMGB
+- OSYM
+- MGAP
+- MULT
+- BA5A
+- BA5B
+- BA5C
+- BA5D
+- BA5E
+- BA5F
+- BA5G
+- BA5H
+- BA5I
+- BA5J
+- BA5K
+- BA5L
+- BA5M
+- BA5N
+
+### Concepts
+
+- Recurrence relations
+- Dynamic programming tables
+- Longest common subsequence
+- Edit distance
+- Shortest common supersequence
+- Counting optimal alignments
+- Global sequence alignment
+- Local sequence alignment
+- Gap penalties
+- Affine gap penalties
+- Overlap alignment
+- Fitting alignment
+- Multiple sequence alignment
+- Alignment as graph/path optimization
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 01: Algorithmic Foundations — Arrays, Sorting, and Searching
+- Module 03: Biological Sequence Basics
+- Recurrence relations
+- Matrix/table construction
+- String indexing and slicing
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| FIBO | Recurrence logic for biological growth and DP formulation |
+| FIB, FIBD | Recurrence-based modelling with biological interpretation |
+| LCSQ | Sequence similarity through longest common subsequence |
+| EDIT, EDTA | Edit distance and alignment reconstruction |
+| SCSP | Combining related sequences into a shortest common representation |
+| CTEA | Counting optimal alignments |
+| GLOB, GCON | Global alignment and gap-penalty models |
+| LOCA | Local alignment and biologically meaningful subsequence matching |
+| GAFF, LAFF | Affine gap penalties in realistic alignment models |
+| OAP, SIMS, SMGB | Specialized alignment variants |
+| BA5A–BA5N | Textbook-style dynamic programming and alignment formulations |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| FIBO | Fully explained |
+| FIB | Fully explained |
+| LCSQ | Fully explained |
+| EDIT | Fully explained |
+| EDTA | Fully explained |
+| SCSP | Worked example |
+| GLOB | Fully explained |
+| LOCA | Fully explained |
+| GAFF | Fully explained |
+| BA5C | Fully explained |
+| BA5G | Fully explained |
+| BA5L | Worked example |
+| BA5M | Worked example |
+| FIBD | Worked example |
+| CTEA | Worked example |
+| GCON | Worked example |
+| LAFF | Worked example |
+| OAP | Worked example |
+| SIMS | Worked example |
+| SMGB | Worked example |
+| OSYM | Archive solution |
+| MGAP | Archive solution |
+| MULT | Archive solution |
+| Remaining BA5 problems | Archive solution |
+
+### Teaching Output
+
+- Dynamic programming and sequence alignment notebook
+- DP table visualization examples
+- Sequence alignment lesson note
+- Exercise set on LCS, edit distance, and global/local alignment
+- Complexity comparison table for alignment algorithms
+
 ## Module 07: String Matching and Genome Indexing
 
 ## Module 08: Graphs and Genome Assembly

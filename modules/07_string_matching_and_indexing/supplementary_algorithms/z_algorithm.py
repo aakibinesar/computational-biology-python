@@ -1,41 +1,91 @@
-def z_arr(s):
+"""
+Z-algorithm for string preprocessing and pattern matching.
 
-    Z = [0] * len(s)
+This implementation is included as supplementary material for
+Module 07: String Matching and Genome Indexing.
 
-    rt = 0
-    lt = 0
+The Z-array stores, for each position i, the length of the longest substring
+starting at i that also matches the prefix of the string.
+"""
+
+
+def z_algorithm(s: str) -> list[int]:
+    """
+    Compute the Z-array for a string.
+
+    Args:
+        s: Input string.
+
+    Returns:
+        A list where Z[i] is the length of the longest substring starting
+        at i that matches the prefix of s.
+    """
+    if not s:
+        return []
+
+    z = [0] * len(s)
+    left = 0
+    right = 0
 
     for k in range(1, len(s)):
-
-        if k > rt:
-            # If k is outside the current Z-box, do naive computation.
+        if k > right:
             n = 0
-            while n + k < len(s) and s[n] == s[n+k]:
+            while k + n < len(s) and s[n] == s[k + n]:
                 n += 1
-            Z[k] = n
+
+            z[k] = n
+
             if n > 0:
-                lt = k
-                rt = k+n-1
+                left = k
+                right = k + n - 1
         else:
-            # If k is inside the current Z-box, consider two cases.
+            mirrored_index = k - left
+            remaining_box_length = right - k + 1
 
-            p = k - lt  # k'
-            right_part_len = rt - k + 1 #beta'
-
-            if Z[p] < right_part_len:
-                Z[k] = Z[p] #Z[k]'
+            if z[mirrored_index] < remaining_box_length:
+                z[k] = z[mirrored_index]
             else:
-                i = rt + 1
+                i = right + 1
                 while i < len(s) and s[i] == s[i - k]:
                     i += 1
 
-                Z[k] = i - k
+                z[k] = i - k
+                left = k
+                right = i - 1
 
-                lt = k
-                rt = i - 1
-    return Z
+    return z
 
 
-string = input("Enter a string: ")
+def z_search(text: str, pattern: str) -> list[int]:
+    """
+    Find all occurrences of a pattern in a text using the Z-algorithm.
 
-print(z_arr(string))
+    Args:
+        text: Text to search within.
+        pattern: Pattern to search for.
+
+    Returns:
+        A list of zero-based starting positions where the pattern occurs.
+    """
+    if not pattern or not text or len(pattern) > len(text):
+        return []
+
+    combined = pattern + "$" + text
+    z = z_algorithm(combined)
+    pattern_length = len(pattern)
+
+    matches = []
+
+    for i in range(pattern_length + 1, len(combined)):
+        if z[i] == pattern_length:
+            matches.append(i - pattern_length - 1)
+
+    return matches
+
+
+if __name__ == "__main__":
+    sample_text = "ACGTACGTGACG"
+    sample_pattern = "ACG"
+
+    print("Z-array:", z_algorithm(sample_text))
+    print("Pattern matches:", z_search(sample_text, sample_pattern))

@@ -765,6 +765,116 @@ This module connects basic motif search to efficient string-matching and indexin
 
 ## Module 08: Graphs and Genome Assembly
 
+### Teaching Purpose
+
+This module connects graph algorithms to genome assembly. It shows how biological sequence reconstruction can be formulated using overlap graphs, de Bruijn graphs, paths, cycles, and graph traversal.
+
+### Rosalind Track Connection
+
+- Algorithmic Heights
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+
+### Problems Used
+
+- DEG
+- DDEG
+- BFS
+- CC
+- DAG
+- SCC
+- GRPH
+- TREE
+- LONG
+- DBRU
+- PCOV
+- GASM
+- GREP
+- ASMQ
+- BA3A
+- BA3B
+- BA3C
+- BA3D
+- BA3E
+- BA3F
+- BA3G
+- BA3H
+- BA3I
+- BA3J
+- BA3K
+- BA3L
+- BA3M
+
+### Concepts
+
+- Graph representation
+- Overlap graphs
+- de Bruijn graphs
+- Genome reconstruction
+- Eulerian paths
+- Eulerian cycles
+- Contigs
+- Assembly quality
+- Short-read assembly logic
+- Graph connectivity
+- Directed graph traversal
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 02: Algorithmic Foundations — Graph Algorithms
+- Module 03: Biological Sequence Basics
+- Module 04: Sequence Statistics, Motifs, and k-mers
+- k-mer generation
+- Graph construction
+- Directed graph traversal
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| DEG, DDEG | Degree concepts for graph representation |
+| BFS, CC | Connectivity and traversal of assembly graphs |
+| DAG, SCC | Directed graph reasoning in assembly structures |
+| GRPH | Overlap graph construction |
+| TREE | Graph connectivity and missing edges |
+| LONG | Genome reconstruction from overlaps |
+| DBRU | de Bruijn graph construction from reads/k-mers |
+| PCOV | Perfect coverage and cyclic reconstruction |
+| GASM | Genome assembly using de Bruijn graphs |
+| GREP | Alternative paths through assembly graphs |
+| ASMQ | Assembly quality metrics |
+| BA3A–BA3M | Textbook-style genome assembly graph problems |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| GRPH | Fully explained |
+| DBRU | Fully explained |
+| BA3D | Fully explained |
+| BA3E | Fully explained |
+| BA3F | Fully explained |
+| BA3H | Fully explained |
+| GASM | Fully explained |
+| TREE | Worked example |
+| LONG | Worked example |
+| PCOV | Worked example |
+| GREP | Worked example |
+| ASMQ | Worked example |
+| BA3A | Worked example |
+| BA3B | Worked example |
+| BA3C | Worked example |
+| Remaining BA3 problems | Archive solution |
+
+### Teaching Output
+
+- Graphs and genome assembly notebook
+- de Bruijn graph lesson note
+- Genome reconstruction exercise set
+- Visual explanation of overlap graphs and de Bruijn graphs
+- Short bridge note connecting graph algorithms to biological sequence assembly
+
 ## Module 09: RNA Structure and Combinatorial Biology
 
 ## Module 10: Proteomics and Mass Spectrometry

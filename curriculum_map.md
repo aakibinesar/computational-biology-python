@@ -961,6 +961,109 @@ This module connects recurrence relations, combinatorics, matching, and dynamic 
 
 ## Module 10: Proteomics and Mass Spectrometry
 
+### Teaching Purpose
+
+This module extends sequence analysis from nucleic acids to proteins and peptide sequencing. It introduces protein translation, amino acid mass, spectra, peptide reconstruction, spectral convolution, and mass-spectrometry-style computational problems.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+
+### Problems Used
+
+- PROT
+- PRTM
+- SPEC
+- CONV
+- FULL
+- PRSM
+- SGRA
+- PDPL
+- BA4A
+- BA4B
+- BA4C
+- BA4D
+- BA4F
+- BA4H
+- BA4J
+- BA4K
+
+### Concepts
+
+- Protein translation
+- Amino acid mass tables
+- Peptide mass calculation
+- Prefix spectra
+- Complete spectra
+- Spectral convolution
+- Peptide reconstruction
+- Protein inference from spectra
+- Spectrum graph reasoning
+- Cyclopeptide sequencing
+- Leaderboard peptide sequencing
+- Peptide scoring
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 03: Biological Sequence Basics
+- Module 04: Sequence Statistics, Motifs, and k-mers
+- Dictionary lookup
+- Protein sequence representation
+- Basic graph/path reasoning
+- Numerical sequence processing
+
+### Connected Bioinformatics Applications
+
+| Problem | Bioinformatics Connection |
+|---|---|
+| PROT | Translation from RNA to protein |
+| PRTM | Protein mass calculation |
+| SPEC | Protein inference from prefix spectrum |
+| CONV | Spectral convolution |
+| FULL | Peptide reconstruction from complete spectrum |
+| PRSM | Matching proteins against spectra |
+| SGRA | Spectrum graph reconstruction |
+| PDPL | Partial digest problem and distance-based reconstruction |
+| BA4A | Translating RNA into peptide |
+| BA4B | Finding DNA substrings encoding a peptide |
+| BA4C | Cyclic spectrum generation |
+| BA4D | Counting peptides by mass |
+| BA4F | Cyclopeptide scoring |
+| BA4H | Spectral convolution |
+| BA4J | Linear spectrum generation |
+| BA4K | Linear peptide scoring |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| PROT | Cross-module reference |
+| PRTM | Fully explained |
+| SPEC | Fully explained |
+| SGRA | Fully explained |
+| BA4A | Fully explained |
+| BA4B | Worked example |
+| BA4C | Fully explained |
+| BA4D | Worked example |
+| BA4F | Worked example |
+| BA4H | Worked example |
+| BA4J | Worked example |
+| BA4K | Worked example |
+| CONV | Worked example |
+| FULL | Worked example |
+| PRSM | Worked example |
+| PDPL | Archive solution |
+
+### Teaching Output
+
+- Proteomics and mass spectrometry notebook
+- Amino acid mass table teaching note
+- Peptide spectrum generation examples
+- Exercise set on peptide mass and spectrum reconstruction
+- Bridge note connecting graph/path reasoning to spectrum-based peptide inference
+
 ## Module 11: Phylogenetics and Evolution
 
 ## Module 12: Practical Bioinformatics with Biopython

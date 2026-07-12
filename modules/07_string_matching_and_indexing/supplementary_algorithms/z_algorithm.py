@@ -56,6 +56,17 @@ def z_algorithm(s: str) -> list[int]:
     return z
 
 
+def _choose_separator(text: str, pattern: str) -> str:
+    """
+    Choose a separator character that does not appear in the text or pattern.
+    """
+    for separator in ["$", "#", "@", "|", "%", "&"]:
+        if separator not in text and separator not in pattern:
+            return separator
+
+    raise ValueError("Could not find a safe separator character.")
+
+
 def z_search(text: str, pattern: str) -> list[int]:
     """
     Find all occurrences of a pattern in a text using the Z-algorithm.
@@ -70,7 +81,8 @@ def z_search(text: str, pattern: str) -> list[int]:
     if not pattern or not text or len(pattern) > len(text):
         return []
 
-    combined = pattern + "$" + text
+    separator = _choose_separator(text, pattern)
+    combined = pattern + separator + text
     z = z_algorithm(combined)
     pattern_length = len(pattern)
 
@@ -81,7 +93,6 @@ def z_search(text: str, pattern: str) -> list[int]:
             matches.append(i - pattern_length - 1)
 
     return matches
-
 
 if __name__ == "__main__":
     sample_text = "ACGTACGTGACG"

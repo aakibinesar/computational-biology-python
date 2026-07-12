@@ -100,5 +100,6 @@ if __name__ == "__main__":
     zero_based_matches = boyer_moore_search(sample_text, sample_pattern)
     one_based_matches = to_rosalind_positions(zero_based_matches)
 
+    print("Z-array:", z_algorithm(sample_text))
     print("Zero-based matches:", zero_based_matches)
     print("Rosalind-style one-based matches:", one_based_matches)

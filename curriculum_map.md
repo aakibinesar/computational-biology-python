@@ -338,6 +338,103 @@ This module introduces the central biological sequence types used in computation
 
 ## Module 04: Sequence Statistics, Motifs, and k-mers
 
+### Teaching Purpose
+
+This module moves from simple sequence manipulation to sequence-level statistics and feature extraction. It introduces GC content, motif finding, consensus sequences, k-mer counting, sequence probability, and motif discovery as foundations for both classical bioinformatics and machine-learning-ready biological sequence representation.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+
+### Problems Used
+
+- GC
+- SUBS
+- CONS
+- LCSM
+- KMER
+- PROB
+- EVAL
+- RSTR
+- CORR
+- BA1A–BA1N
+- BA2A–BA2H
+
+### Concepts
+
+- GC content
+- Motif search
+- Consensus sequences
+- Profile matrices
+- Longest common substring
+- k-mer counting
+- Sequence probability
+- Expected motif occurrence
+- Error correction in reads
+- Frequent words and approximate pattern matching
+- Motif discovery
+- Median string problem
+- Profile-most probable k-mers
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 03: Biological Sequence Basics
+- Python dictionaries
+- String slicing
+- Counting and frequency tables
+
+### Connected Bioinformatics Applications
+
+| Foundational Problem | Bioinformatics Connection |
+|---|---|
+| GC | Sequence composition and basic feature extraction |
+| SUBS | Motif search and pattern matching |
+| CONS | Profile matrices and consensus sequence construction |
+| LCSM | Shared motif discovery across sequences |
+| KMER | k-mer feature representation |
+| PROB, EVAL, RSTR | Probability models for sequence patterns |
+| BA1A–BA1N | Frequent words, reverse complements, approximate matching, and pattern positions |
+| BA2A–BA2H | Motif discovery and profile-based sequence analysis |
+
+### Connected ML-ready Applications
+
+| Concept | ML Connection |
+|---|---|
+| GC content | Simple numerical sequence feature |
+| k-mer counts | Feature vector construction |
+| Motif presence/absence | Binary feature representation |
+| Profile matrices | Probabilistic sequence representation |
+| Approximate matching | Robust sequence similarity features |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| GC | Fully explained |
+| SUBS | Fully explained |
+| CONS | Fully explained |
+| LCSM | Fully explained |
+| KMER | Fully explained |
+| BA1A | Fully explained |
+| BA1B | Fully explained |
+| BA1H | Worked example |
+| BA2A | Fully explained |
+| BA2D | Worked example |
+| PROB | Worked example |
+| EVAL | Worked example |
+| RSTR | Worked example |
+| CORR | Worked example |
+| Remaining BA1 and BA2 problems | Archive solution |
+
+### Teaching Output
+
+- Sequence statistics and motifs notebook
+- k-mer feature extraction lesson note
+- Motif discovery exercise set
+- Bridge note connecting k-mers to ML-ready sequence features
+
 ## Module 05: Genetics and Probability
 
 ## Module 06: Dynamic Programming and Sequence Alignment

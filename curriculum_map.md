@@ -877,6 +877,88 @@ This module connects graph algorithms to genome assembly. It shows how biologica
 
 ## Module 09: RNA Structure and Combinatorial Biology
 
+### Teaching Purpose
+
+This module connects recurrence relations, combinatorics, matching, and dynamic programming to RNA structure-related problems. It shows how biological constraints such as base pairing can be represented computationally through counting, matching, and recursive decomposition.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Algorithmic Heights
+
+### Problems Used
+
+- FIBO
+- FIB
+- FIBD
+- PMCH
+- MMCH
+- CAT
+- MOTZ
+- RNAS
+- REVP
+- ITWV
+
+### Concepts
+
+- Recurrence relations
+- RNA base pairing
+- Perfect matchings
+- Maximum matchings
+- Catalan-style counting
+- Motzkin-style counting
+- Noncrossing matchings
+- Recursive decomposition
+- Reverse-palindromic sequences
+- Interwoven motifs
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 01: Algorithmic Foundations — Arrays, Sorting, and Searching
+- Module 03: Biological Sequence Basics
+- Module 05: Genetics and Probability
+- Module 06: Dynamic Programming and Sequence Alignment
+- Recurrence relations
+- Combinatorial counting
+- RNA sequence handling
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| FIBO | General recurrence thinking |
+| FIB, FIBD | Biological recurrence models |
+| PMCH | Perfect RNA base-pair matchings |
+| MMCH | Maximum RNA base-pair matchings |
+| CAT | Catalan-style noncrossing RNA matchings |
+| MOTZ | Motzkin-style RNA secondary structure counting |
+| RNAS | RNA secondary structure with wobble base pairs |
+| REVP | Reverse-palindromic restriction sites |
+| ITWV | Interwoven motif detection |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| PMCH | Fully explained |
+| MMCH | Worked example |
+| CAT | Fully explained |
+| MOTZ | Fully explained |
+| RNAS | Fully explained |
+| REVP | Worked example |
+| ITWV | Worked example |
+| FIB | Cross-module reference |
+| FIBD | Cross-module reference |
+
+### Teaching Output
+
+- RNA structure and combinatorics lesson note
+- Recurrence and matching explanation
+- Worked examples on perfect and noncrossing matchings
+- Exercise set on recursive counting in RNA structure problems
+- Bridge note connecting RNA structure counting to dynamic programming
+
 ## Module 10: Proteomics and Mass Spectrometry
 
 ## Module 11: Phylogenetics and Evolution

@@ -1066,6 +1066,114 @@ This module extends sequence analysis from nucleic acids to proteins and peptide
 
 ## Module 11: Phylogenetics and Evolution
 
+### Teaching Purpose
+
+This module connects sequence comparison, distance matrices, tree structures, and evolutionary reasoning. It introduces phylogenetic trees, Newick format, character tables, quartet-based reasoning, tree distance, and evolutionary reconstruction problems.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+- Algorithmic Heights
+
+### Problems Used
+
+- PDST
+- NWCK
+- NKEW
+- CTBL
+- CSTR
+- CHBP
+- EUBT
+- CNTQ
+- QRT
+- QRTD
+- SPTD
+- ALPH
+- ROOT
+- BA7A
+- BA7B
+- BA7C
+- BA7D
+- BA7E
+- BA7F
+- BA7G
+
+### Concepts
+
+- Pairwise distance matrices
+- p-distance
+- Newick tree format
+- Tree traversal
+- Weighted trees
+- Character tables
+- Quartets
+- Quartet distance
+- Split distance
+- Binary tree enumeration
+- Phylogenetic reconstruction
+- Evolutionary parsimony
+- Additive phylogeny
+- UPGMA and neighbor joining
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 02: Algorithmic Foundations — Graph Algorithms
+- Module 03: Biological Sequence Basics
+- Module 06: Dynamic Programming and Sequence Alignment
+- String comparison
+- Tree representation
+- Graph traversal
+- Distance calculation
+
+### Connected Bioinformatics Applications
+
+| Problem | Bioinformatics Connection |
+|---|---|
+| PDST | Pairwise sequence distance matrix construction |
+| NWCK | Tree distance using Newick-formatted trees |
+| NKEW | Weighted tree distance calculation |
+| CTBL | Character table construction from trees |
+| CSTR | Character-based representation of taxa |
+| CHBP | Tree construction from character tables |
+| EUBT | Enumeration of unrooted binary trees |
+| CNTQ | Counting quartets |
+| QRT | Quartet inference from character tables |
+| QRTD | Quartet distance between trees |
+| SPTD | Split distance between phylogenetic trees |
+| ALPH | Parsimony-style ancestral sequence inference |
+| ROOT | Rooting trees and tree representation |
+| BA7A–BA7G | Textbook-style phylogenetic reconstruction algorithms |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| PDST | Fully explained |
+| NWCK | Fully explained |
+| NKEW | Fully explained |
+| CTBL | Fully explained |
+| QRTD | Fully explained |
+| BA7B | Fully explained |
+| CSTR | Worked example |
+| CHBP | Worked example |
+| EUBT | Worked example |
+| CNTQ | Worked example |
+| QRT | Worked example |
+| SPTD | Worked example |
+| ALPH | Archive solution |
+| ROOT | Archive solution |
+| Remaining BA7 problems | Archive solution |
+
+### Teaching Output
+
+- Phylogenetics and evolution notebook
+- Newick tree parsing lesson note
+- Distance matrix exercise set
+- Character table and quartet reasoning examples
+- Bridge note connecting graph/tree algorithms to evolutionary biology
+
 ## Module 12: Practical Bioinformatics with Biopython
 
 ## Module 13: ML-ready Bioinformatics Bridge

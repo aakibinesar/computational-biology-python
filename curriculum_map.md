@@ -23,6 +23,61 @@ The original solutions are preserved by Rosalind track inside `original_rosalind
 
 ## Module 00: Python for Bioinformatics
 
+### Teaching Purpose
+
+This module introduces Python as a practical language for biological sequence analysis. It covers strings, lists, dictionaries, arithmetic, loops, and file input/output.
+
+### Rosalind Track Connection
+
+- Python Village
+
+### Problems Used
+
+- INI1
+- INI2
+- INI3
+- INI4
+- INI5
+- INI6
+
+### Concepts
+
+- Python syntax
+- String manipulation
+- Lists and dictionaries
+- Basic arithmetic
+- File reading
+- Simple text processing
+
+### Connected Bioinformatics Applications
+
+These Python skills support later problems such as:
+
+- DNA
+- RNA
+- REVC
+- GC
+- SUBS
+- CONS
+- FASTA/FASTQ parsing problems from Bioinformatics Armory
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| INI1 | Worked example |
+| INI2 | Worked example |
+| INI3 | Fully explained |
+| INI4 | Worked example |
+| INI5 | Fully explained |
+| INI6 | Fully explained |
+
+### Teaching Output
+
+- Short lesson note
+- Beginner notebook
+- Exercise sheet
+
 ## Module 01: Algorithmic Foundations — Arrays, Sorting, and Searching
 
 ## Module 02: Algorithmic Foundations — Graph Algorithms

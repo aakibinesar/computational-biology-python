@@ -1176,4 +1176,98 @@ This module connects sequence comparison, distance matrices, tree structures, an
 
 ## Module 12: Practical Bioinformatics with Biopython
 
+### Teaching Purpose
+
+This module moves beyond algorithmic problem solving into practical bioinformatics workflows using Biopython. It introduces sequence records, FASTA and FASTQ handling, GenBank access, quality-score filtering, translation tables, reverse complements, and practical sequence processing tasks.
+
+### Rosalind Track Connection
+
+- Bioinformatics Armory
+- Bioinformatics Stronghold
+
+### Problems Used
+
+- INI
+- GBK
+- FRMT
+- NEED
+- TFSQ
+- PHRE
+- PTRA
+- FILT
+- RVCO
+- BPHR
+- ORFR
+- DNA
+- RNA
+- REVC
+- PROT
+- ORF
+- SPLC
+
+### Concepts
+
+- Biopython basics
+- Seq and SeqRecord objects
+- FASTA parsing
+- FASTQ parsing
+- GenBank records
+- Entrez-style sequence retrieval
+- Translation tables
+- Open reading frame detection
+- Reverse complement operations
+- Quality-score filtering
+- Read trimming logic
+- Practical biological file handling
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 03: Biological Sequence Basics
+- Python file input/output
+- Sequence manipulation
+- Translation and reverse complement concepts
+
+### Connected Bioinformatics Applications
+
+| Problem | Practical Bioinformatics Connection |
+|---|---|
+| INI | Introduction to Biopython sequence objects |
+| GBK | GenBank record retrieval/counting |
+| FRMT | FASTA retrieval and sequence length comparison |
+| NEED | Pairwise alignment using external-style biological tools |
+| TFSQ | FASTQ to FASTA conversion |
+| PHRE | FASTQ quality-score interpretation |
+| PTRA | Translation-table identification |
+| FILT | FASTQ read filtering |
+| RVCO | Reverse complement sequence counting |
+| BPHR | Base-quality filtering |
+| ORFR | ORF detection from sequence records |
+| DNA, RNA, REVC, PROT, ORF, SPLC | Conceptual foundation for practical sequence workflows |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| INI | Fully explained |
+| GBK | Fully explained |
+| FRMT | Fully explained |
+| TFSQ | Fully explained |
+| PHRE | Fully explained |
+| FILT | Fully explained |
+| ORFR | Fully explained |
+| NEED | Worked example |
+| PTRA | Worked example |
+| RVCO | Worked example |
+| BPHR | Worked example |
+| DNA, RNA, REVC, PROT, ORF, SPLC | Cross-module reference |
+
+### Teaching Output
+
+- Practical Biopython notebook
+- FASTA/FASTQ parsing lesson note
+- Quality-score filtering exercise set
+- ORF detection workflow example
+- Short teaching module based on Python/Biopython workshop-style material
+
 ## Module 13: ML-ready Bioinformatics Bridge

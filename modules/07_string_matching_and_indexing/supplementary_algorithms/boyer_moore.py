@@ -184,7 +184,8 @@ def string_search(P, T):
 
     return matches
 
-T = input("Enter T: ")
-P = input("Enter P: ")
+if __name__ == "__main__":
+    sample_text = "ACGTACGTGACG"
+    sample_pattern = "ACG"
 
-print(string_search(P,T))
+    print(string_search(sample_pattern, sample_text))

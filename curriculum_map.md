@@ -250,6 +250,92 @@ This module introduces graph algorithms as a foundation for genome assembly, phy
 
 ## Module 03: Biological Sequence Basics
 
+### Teaching Purpose
+
+This module introduces the central biological sequence types used in computational biology: DNA, RNA, and protein sequences. It connects basic Python string processing to transcription, reverse complementation, translation, open reading frames, splicing, and simple sequence comparison.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Armory
+
+### Problems Used
+
+- DNA
+- RNA
+- REVC
+- HAMM
+- PROT
+- MRNA
+- ORF
+- PRTM
+- SPLC
+- TRAN
+- REVP
+- SSEQ
+- PTRA
+- ORFR
+- RVCO
+
+### Concepts
+
+- DNA sequence representation
+- RNA transcription
+- Reverse complement
+- Hamming distance
+- Codons and translation
+- Open reading frames
+- Protein mass
+- RNA splicing
+- Transition/transversion ratio
+- Subsequence matching
+- Reverse-palindromic restriction sites
+
+### Prerequisite Foundations
+
+- INI1–INI6
+- Python strings
+- Dictionaries
+- File reading
+- Basic loops and conditionals
+
+### Connected Bioinformatics Applications
+
+| Foundation Skill | Bioinformatics Connection |
+|---|---|
+| Python string processing | DNA, RNA, REVC, HAMM |
+| Dictionary lookup | Codon tables for PROT, MRNA, ORF, PTRA |
+| File parsing | FASTA-based sequence problems such as SPLC and ORFR |
+| Substring/subsequence logic | SSEQ, REVP, motif and pattern problems |
+| Biological sequence conversion | Transcription, translation, splicing, and ORF detection |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| DNA | Fully explained |
+| RNA | Fully explained |
+| REVC | Fully explained |
+| PROT | Fully explained |
+| ORF | Fully explained |
+| SPLC | Fully explained |
+| HAMM | Worked example |
+| MRNA | Worked example |
+| PRTM | Worked example |
+| TRAN | Worked example |
+| REVP | Worked example |
+| SSEQ | Worked example |
+| PTRA | Worked example |
+| ORFR | Worked example |
+| RVCO | Archive solution |
+
+### Teaching Output
+
+- Biological sequence basics notebook
+- Codon table teaching note
+- DNA-to-protein workflow example
+- Exercise set on transcription, translation, and ORF detection
+
 ## Module 04: Sequence Statistics, Motifs, and k-mers
 
 ## Module 05: Genetics and Probability

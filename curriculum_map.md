@@ -1271,3 +1271,129 @@ This module moves beyond algorithmic problem solving into practical bioinformati
 - Short teaching module based on Python/Biopython workshop-style material
 
 ## Module 13: ML-ready Bioinformatics Bridge
+
+### Teaching Purpose
+
+This capstone module connects classical bioinformatics problem solving to machine-learning-ready biological sequence analysis. It shows how sequence statistics, k-mers, motif features, alignment-based similarity, and practical Biopython workflows can be transformed into structured feature representations for downstream machine learning tasks.
+
+### Rosalind Track Connection
+
+- Bioinformatics Stronghold
+- Bioinformatics Textbook Track
+- Bioinformatics Armory
+- Extension beyond Rosalind
+
+### Problems Used
+
+- DNA
+- RNA
+- REVC
+- GC
+- SUBS
+- CONS
+- LCSM
+- KMER
+- PROB
+- EVAL
+- RSTR
+- CORR
+- HAMM
+- LCSQ
+- EDIT
+- GLOB
+- LOCA
+- FRMT
+- TFSQ
+- PHRE
+- FILT
+- BA1A–BA1N
+- BA2A–BA2H
+- BA5A–BA5N
+
+### Concepts
+
+- Biological sequence representation
+- GC-content features
+- k-mer feature extraction
+- Motif-based features
+- Profile matrices
+- Approximate matching
+- Sequence similarity
+- Edit distance as a feature
+- Alignment score as a feature
+- FASTA/FASTQ preprocessing
+- Quality filtering
+- Feature matrix construction
+- Classical machine learning pipeline
+- Baseline classification or clustering
+- Reproducible bioinformatics workflows
+
+### Prerequisite Foundations
+
+- Module 00: Python for Bioinformatics
+- Module 03: Biological Sequence Basics
+- Module 04: Sequence Statistics, Motifs, and k-mers
+- Module 06: Dynamic Programming and Sequence Alignment
+- Module 12: Practical Bioinformatics with Biopython
+- Python dictionaries
+- File parsing
+- NumPy/Pandas basics
+- Basic scikit-learn workflow
+
+### Connected Bioinformatics-to-ML Applications
+
+| Bioinformatics Concept | ML-ready Connection |
+|---|---|
+| GC content | Simple numerical sequence feature |
+| k-mer counts | Feature vector representation |
+| Motif presence/absence | Binary feature representation |
+| Consensus/profile matrices | Probabilistic sequence representation |
+| Hamming distance | Pairwise sequence similarity feature |
+| Edit distance | Distance-based sequence comparison |
+| Global/local alignment scores | Similarity features for classification or clustering |
+| FASTQ quality scores | Data filtering and preprocessing |
+| Error correction problems | Data cleaning and reliability |
+| Biopython workflows | Practical input/output layer for real biological data |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| GC | Cross-module reference |
+| KMER | Fully explained |
+| CONS | Cross-module reference |
+| LCSM | Worked example |
+| HAMM | Worked example |
+| EDIT | Cross-module reference |
+| GLOB | Cross-module reference |
+| LOCA | Cross-module reference |
+| FRMT | Worked example |
+| TFSQ | Worked example |
+| PHRE | Worked example |
+| FILT | Worked example |
+| BA1A–BA1N | Feature-engineering reference set |
+| BA2A–BA2H | Motif-discovery reference set |
+| BA5A–BA5N | Similarity/alignment reference set |
+
+### Capstone Mini-project
+
+The capstone mini-project for this module is:
+
+**ML-ready Biological Sequence Features with Python**
+
+The project demonstrates a simple end-to-end workflow:
+
+1. Read biological sequences from FASTA-style input.
+2. Clean and validate sequence data.
+3. Extract GC content and k-mer frequency features.
+4. Build a feature matrix using Python, NumPy, and Pandas.
+5. Apply a simple baseline model or clustering method.
+6. Interpret how classical bioinformatics features become machine-learning-ready representations.
+
+### Teaching Output
+
+- ML-ready bioinformatics bridge notebook
+- k-mer feature extraction tutorial
+- FASTA-to-feature-matrix workflow
+- Simple baseline ML example
+- Short bridge note connecting Rosalind problem solving to AI for health and computational biology research

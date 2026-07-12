@@ -80,6 +80,80 @@ These Python skills support later problems such as:
 
 ## Module 01: Algorithmic Foundations — Arrays, Sorting, and Searching
 
+### Teaching Purpose
+
+This module introduces core algorithmic tools that later support computational biology workflows, especially efficient sequence processing, k-mer counting, feature extraction, sorting, indexing, and recurrence-based reasoning.
+
+### Rosalind Track Connection
+
+- Algorithmic Heights
+
+### Problems Used
+
+- FIBO
+- BINS
+- INS
+- MER
+- MS
+- QS
+- PAR
+- PAR3
+- HEA
+- HS
+- INV
+- MAJ
+- 2SUM
+- 3SUM
+- MED
+- PS
+
+### Concepts
+
+- Recurrence relations
+- Binary search
+- Sorting
+- Merge sort
+- Quick sort
+- Partitioning
+- Heaps
+- Majority element
+- Array scanning
+- Inversions
+- Selection problems
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| FIBO | Recurrence thinking for FIB, FIBD, CAT, MOTZ, and RNA-structure counting problems |
+| BINS | Efficient lookup in sequence and k-mer tables |
+| MER, MS, QS | Sorting biological strings, k-mers, suffix/indexing preparation |
+| HEA, HS | Priority-queue thinking for graph and optimization problems |
+| INV | Permutations and genome rearrangement intuition |
+| 2SUM, 3SUM, MAJ | Efficient array-based reasoning for biological data processing |
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| FIBO | Fully explained |
+| BINS | Fully explained |
+| MER | Fully explained |
+| MS | Fully explained |
+| QS | Fully explained |
+| INV | Worked example |
+| HEA | Worked example |
+| HS | Worked example |
+| 2SUM | Worked example |
+| 3SUM | Worked example |
+| Remaining problems | Archive solution |
+
+### Teaching Output
+
+- Algorithmic foundations notebook
+- Short lesson note
+- Complexity comparison table
+
 ## Module 02: Algorithmic Foundations — Graph Algorithms
 
 ## Module 03: Biological Sequence Basics

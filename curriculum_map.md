@@ -156,6 +156,98 @@ This module introduces core algorithmic tools that later support computational b
 
 ## Module 02: Algorithmic Foundations — Graph Algorithms
 
+### Teaching Purpose
+
+This module introduces graph algorithms as a foundation for genome assembly, phylogenetics, biological networks, and graph-based sequence analysis.
+
+### Rosalind Track Connection
+
+- Algorithmic Heights
+
+### Problems Used
+
+- DEG
+- DDEG
+- BFS
+- CC
+- BIP
+- DAG
+- DIJ
+- BF
+- CTE
+- TS
+- HDAG
+- NWC
+- SCC
+- 2SAT
+- GS
+- SC
+- SDAG
+- SQ
+
+### Concepts
+
+- Graph representation
+- Degree arrays
+- Breadth-first search
+- Connected components
+- Bipartite graphs
+- Directed acyclic graphs
+- Topological sorting
+- Shortest paths
+- Negative cycles
+- Strongly connected components
+- 2-SAT and constraint modelling
+
+### Connected Bioinformatics Applications
+
+| Foundation Problem | Bioinformatics Connection |
+|---|---|
+| DEG, DDEG | Graph representation for overlap graphs and de Bruijn graphs |
+| BFS, CC | Assembly graph traversal and connectivity |
+| BIP | Bipartite structures and biological network modelling |
+| DAG, TS, HDAG | Ordered graph structures and dynamic programming on graphs |
+| DIJ, BF, SDAG | Weighted paths, alignment graphs, and distance-based models |
+| NWC | Negative cycle reasoning in weighted graph problems |
+| SCC, SC | Strong connectivity in directed assembly graphs |
+| 2SAT | Advanced constraint-based modelling |
+
+### Connected Bioinformatics Problems
+
+- GRPH
+- TREE
+- DBRU
+- LONG
+- PCOV
+- GASM
+- GREP
+- ASMQ
+- BA3A–BA3H
+- NWCK
+- NKEW
+- CTBL
+- CSTR
+
+### Suggested Treatment
+
+| Problem | Role |
+|---|---|
+| DEG | Worked example |
+| DDEG | Worked example |
+| BFS | Fully explained |
+| CC | Fully explained |
+| DAG | Fully explained |
+| DIJ | Fully explained |
+| SCC | Fully explained |
+| 2SAT | Worked example |
+| Remaining problems | Archive solution |
+
+### Teaching Output
+
+- Graph algorithms before genome assembly notebook
+- Graph representation lesson note
+- Exercise set connecting Algorithmic Heights graph problems to genome assembly and phylogenetics
+
 ## Module 03: Biological Sequence Basics
 
 ## Module 04: Sequence Statistics, Motifs, and k-mers

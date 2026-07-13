@@ -70,10 +70,23 @@ The repository is organized into thirteen teaching-oriented modules. Each module
 ## Setup
 
 Clone the repository:
-```
+
+```bash
 git clone https://github.com/aakibinesar/computational-biology-python.git
 cd computational-biology-python
-```
+
+python -m venv .venv
+
+.venv\Scripts\activate
+
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+jupyter notebook
+
+jupyter lab
+
 ## Current Development
 
 This repository is being developed in stages.

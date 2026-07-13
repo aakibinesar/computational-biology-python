@@ -73,8 +73,6 @@ Work in progress. The first complete version will organize 202 solved Rosalind p
 
 ## Current Development```
 
-Then add this small Status
-
 This repository is being developed in stages.
 
 - Repository structure: complete

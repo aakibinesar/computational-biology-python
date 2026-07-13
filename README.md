@@ -70,10 +70,10 @@ The repository is organized into thirteen teaching-oriented modules. Each module
 ## Setup
 
 Clone the repository:
-
+```
 git clone https://github.com/aakibinesar/computational-biology-python.git
 cd computational-biology-python
-
+```
 ## Current Development
 
 This repository is being developed in stages.

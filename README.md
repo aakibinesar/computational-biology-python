@@ -67,11 +67,7 @@ The repository is organized into thirteen teaching-oriented modules. Each module
 | [Module 12](modules/12_practical_bioinformatics_biopython/) | Practical Bioinformatics with Biopython | FASTA/FASTQ handling, GenBank retrieval, quality filtering, and ORF workflows |
 | [Module 13](modules/13_ml_ready_bioinformatics_bridge/) | ML-ready Bioinformatics Bridge | GC features, k-mer vectors, motif features, similarity scores, and feature matrices |
 
-## Status
-
-Work in progress. The first complete version will organize 202 solved Rosalind problems into a structured teaching and research portfolio.
-
-## Current Development```
+## Current Development
 
 This repository is being developed in stages.
 

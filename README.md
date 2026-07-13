@@ -67,6 +67,13 @@ The repository is organized into thirteen teaching-oriented modules. Each module
 | [Module 12](modules/12_practical_bioinformatics_biopython/) | Practical Bioinformatics with Biopython | FASTA/FASTQ handling, GenBank retrieval, quality filtering, and ORF workflows |
 | [Module 13](modules/13_ml_ready_bioinformatics_bridge/) | ML-ready Bioinformatics Bridge | GC features, k-mer vectors, motif features, similarity scores, and feature matrices |
 
+## Setup
+
+Clone the repository:
+
+git clone https://github.com/aakibinesar/computational-biology-python.git
+cd computational-biology-python
+
 ## Current Development
 
 This repository is being developed in stages.

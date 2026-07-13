@@ -74,18 +74,45 @@ Clone the repository:
 ```bash
 git clone https://github.com/aakibinesar/computational-biology-python.git
 cd computational-biology-python
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv .venv
+```
 
+Activate the virtual environment.
+
+On Windows:
+
+```bash
 .venv\Scripts\activate
+```
 
+On macOS/Linux:
+
+```bash
 source .venv/bin/activate
+```
 
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+Launch Jupyter Notebook:
+
+```bash
 jupyter notebook
+```
 
+Alternatively, launch JupyterLab:
+
+```bash
 jupyter lab
+```
 
 ## Current Development
 

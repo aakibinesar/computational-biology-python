@@ -36,4 +36,4 @@ The mini-projects connect especially strongly to:
 
 ## Development Status
 
-Mini-project development is planned after the first-pass documentation and module structure are complete.
+- ML-ready sequence feature mini-project: complete first version

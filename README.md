@@ -130,3 +130,9 @@ This repository is being developed in stages.
 
 For a detailed completion summary, see [`project_status.md`](project_status.md).
 For planned future improvements, see [`roadmap.md`](roadmap.md).
+
+## Acknowledgement
+
+This repository is an independent educational portfolio based on my completed Rosalind problem-solving work.
+
+Rosalind problem names and IDs are used for reference and curriculum mapping. The original problems belong to the Rosalind platform. This repository contains my own solution archive, explanations, teaching materials, notebooks, and extensions, and is not affiliated with or endorsed by Rosalind.

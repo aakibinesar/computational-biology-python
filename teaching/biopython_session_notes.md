@@ -2,8 +2,6 @@
 
 This file summarizes the preserved evidence for the Biopython-focused sessions from the original workshop.
 
-The original Biopython slide decks are not currently preserved, but the appointment schedule and screenshots from recorded sessions show that Biopython was covered in the final part of the workshop.
-
 ## Confirmed Workshop Schedule Context
 
 | Date | Topic |
@@ -14,7 +12,7 @@ The original Biopython slide decks are not currently preserved, but the appointm
 
 ## Preserved Biopython Topics
 
-The screenshots and session evidence show that the Biopython sessions included topics such as:
+The Biopython sessions included topics such as:
 
 - Biopython overview and purpose;
 - `Bio.Seq`;

@@ -127,3 +127,5 @@ This repository is being developed in stages.
 - Tutorial notebooks: complete first version
 - ML-ready sequence feature mini-project: complete first version
 - Teaching materials: complete first version
+
+For a detailed completion summary, see [`project_status.md`](project_status.md).

@@ -129,3 +129,4 @@ This repository is being developed in stages.
 - Teaching materials: complete first version
 
 For a detailed completion summary, see [`project_status.md`](project_status.md).
+For planned future improvements, see [`roadmap.md`](roadmap.md).

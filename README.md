@@ -124,6 +124,6 @@ This repository is being developed in stages.
 - Problem dependency map: complete first version
 - Solved problem index: complete grouped first version
 - Module README files: complete first version
-- Tutorial notebooks: planned
-- Teaching materials: planned
-- ML-ready sequence feature mini-project: planned
+- Tutorial notebooks: complete first version
+- ML-ready sequence feature mini-project: complete first version
+- Teaching materials: complete first version

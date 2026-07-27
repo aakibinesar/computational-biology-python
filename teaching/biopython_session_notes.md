@@ -2,7 +2,7 @@
 
 This file summarizes the preserved evidence for the Biopython-focused sessions from the original workshop.
 
-## Confirmed Workshop Schedule Context
+## Workshop Schedule Context
 
 | Date | Topic |
 |---:|---|
@@ -10,7 +10,7 @@ This file summarizes the preserved evidence for the Biopython-focused sessions f
 | 12 Dec 2020 | Biopython I |
 | 19 Dec 2020 | Biopython II |
 
-## Preserved Biopython Topics
+## Biopython Topics
 
 The Biopython sessions included topics such as:
 
@@ -35,7 +35,7 @@ The Biopython sessions included topics such as:
 - `Bio.Blast.NCBIWWW`;
 - Rosalind Bioinformatics Armory problems.
 
-## Rosalind Armory Problems Evidenced
+## Rosalind Armory Problems
 
 | Problem ID | Focus |
 |---|---|
